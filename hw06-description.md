@@ -24,7 +24,7 @@ In HW05 you made `ligotools` usable as a local package that could be imported fr
 
 Note: for the authorship, you should list as authors "Ligo Scientific Collaboration (LSC) and `<your name>`".
 
-### [ 5 points ] Add tests to `readligo.py`
+### [ 5 points ] Add tests to `readligo.py` DONE
 
 You should add four separate small tests to the functions in `readligo.py` that are part of the `ligotools` package.  Make a subfolder called `tests` and put in there `tests_readligo.py` with your tests.
 
@@ -45,7 +45,7 @@ Find the notebook cell that begins with
 
 and move its plotting code into a separate utility function, then call that from the notebook.
 
-### [ 5 points ] Add tests to `utils.py`
+### [ 5 points ] Add tests to `utils.py` DONE
 
 You should add four separate small tests to the functions in `utils.py`. These should test the three functions you moved from the notebook and the new plotting one you made above.
 

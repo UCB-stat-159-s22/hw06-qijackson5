@@ -6,7 +6,7 @@ def test_loaddata_forH1():
     strain_H1, time_H1, chan_dict_H1 = rl.loaddata(fn_H1, 'H1')
     assert (strain_H1.any())
     assert (time_H1.any())
-    assert (chan_dict_H1.any())
+    assert (chan_dict_H1 is not None)
     
 # test if the loaddata function works properly on L1
 def test_loaddata_forL1():
@@ -14,7 +14,7 @@ def test_loaddata_forL1():
     strain_L1, time_L1, chan_dict_L1 = rl.loaddata(fn_L1, 'L1')
     assert (strain_L1.any())
     assert (time_L1.any())
-    assert (chan_dict_L1.any())
+    assert (chan_dict_H1 is not None)
 
     
 # test if the dq_channel_to_seglist function works on h1 checking the length of the segment list
