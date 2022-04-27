@@ -12,13 +12,13 @@ In this assignment we are giving you as a starting point effectively the solutio
 
 ## Deliverables
 
-### [5 points] Repository structure
+### [5 points] Repository structure DONE
 
 The repository starts with all the code and data with the same layout as LIGO created it. You will reorganize it, while checking that the code still runs, so that all data files live in a `data` directory, generated figures get saved to `figurs`, and generated audio goes into `audio`.  
 
 These directories should be present in the repo even before you run any code. Since Git will not let you add an empty dir to a repo, you will need to use a little hack by putting an empty `.gitkeep` file in those directories (as explained [here](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/gitkeep-push-empty-folders-git-commit)). 
 
-### [ 5 points] Installable package
+### [ 5 points] Installable package DONE
 
 In HW05 you made `ligotools` usable as a local package that could be imported from the current directory. Now you will make it an actually installable package as discussed in class, with the appropriate `pyproj.toml`, `setup.py` and `setup.cfg` files. 
 
@@ -30,11 +30,11 @@ You should add four separate small tests to the functions in `readligo.py` that 
 
 The command `pytest ligotools` should run all those tests.
 
-### [ 5 points ] Create `utils.py`
+### [ 5 points ] Create `utils.py` DONE
 
 In the `ligotools` package, make a new module called `utils.py` and move the following functions from the notebook into `utils`: `whiten`, `write_wavfile`, `reqshift`. You will then need to update the notebook to use these functions imported from `ligotools.utils` instead.
 
-### [ 5 points ] Make new plotting utility in `utils.py`
+### [ 5 points ] Make new plotting utility in `utils.py` DONE
 
 Find the notebook cell that begins with
 
@@ -51,7 +51,7 @@ You should add four separate small tests to the functions in `utils.py`. These s
 
 The command `pytest ligotools` should run all those tests.
 
-### [ 5 points ] JupyterBook
+### [ 5 points ] JupyterBook DONE 
 
 Set up the repository to be a proper JupyterBook one that builds a page for the main notebook and includes a visible Binder link in the JupyterBook build.
 
@@ -79,7 +79,7 @@ Configure your repo to have a public GitHub Pages URL and set up a GitHub Action
 
 Note that the code to execute the notebooks is based on Python 2.7 while the JupyterBook build tools are based on Python 3. You'll need to treat the build and science code separately.
 
-### [ 5 points ] Makefile
+### [ 5 points ] Makefile DONE
 
 There should be a Makefile with the following targets
 
